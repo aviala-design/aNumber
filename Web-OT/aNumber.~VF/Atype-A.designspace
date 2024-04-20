@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis default="600" minimum="1" name="weight" tag="wght" maximum="1000">
+   <labelname xml:lang="en">Weight</labelname>
+   <map input="1" output="300"/>
+   <map input="400" output="400"/>
+   <map input="600" output="500"/>
+   <map input="1000" output="700"/>
+  </axis>
+ </axes>
+ <sources>
+  <source name="Bold" stylename="Bold" familyname="aNumber" filename="masters/aNumber-Bold.ufo">
+   <location>
+    <dimension name="weight" xvalue="700"/>
+   </location>
+  </source>
+  <source name="Light" stylename="Light" familyname="aNumber" filename="masters/aNumber-Light.ufo">
+   <location>
+    <dimension name="weight" xvalue="300"/>
+   </location>
+  </source>
+  <source name="Medium" stylename="Medium" familyname="aNumber" filename="masters/aNumber-Medium.ufo">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension name="weight" xvalue="500"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance name="Light" stylename="Light" familyname="aNumber" filename="instances/aNumber-Light.ufo">
+   <location>
+    <dimension name="weight" xvalue="300"/>
+   </location>
+  </instance>
+  <instance name="Medium" stylename="Medium" familyname="aNumber" filename="instances/aNumber-Medium.ufo">
+   <location>
+    <dimension name="weight" xvalue="500"/>
+   </location>
+  </instance>
+  <instance name="Bold" stylename="Bold" familyname="aNumber" filename="instances/aNumber-Bold.ufo">
+   <location>
+    <dimension name="weight" xvalue="700"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>
