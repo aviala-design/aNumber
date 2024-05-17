@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="4.0">
  <axes>
-  <axis name="weight" tag="wght" maximum="1000" minimum="1" default="600">
+  <axis name="weight" minimum="1" default="600" tag="wght" maximum="1000">
    <labelname xml:lang="en">Weight</labelname>
    <map output="300" input="1"/>
    <map output="400" input="400"/>
@@ -10,17 +10,17 @@
   </axis>
  </axes>
  <sources>
-  <source name="Bold" filename="masters/aNumber-Bold.ufo" familyname="aNumber" stylename="Bold">
+  <source familyname="aNumber" name="Bold" filename="masters/aNumber-Bold.ufo" stylename="Bold">
    <location>
     <dimension name="weight" xvalue="700"/>
    </location>
   </source>
-  <source name="Light" filename="masters/aNumber-Light.ufo" familyname="aNumber" stylename="Light">
+  <source familyname="aNumber" name="Light" filename="masters/aNumber-Light.ufo" stylename="Light">
    <location>
     <dimension name="weight" xvalue="300"/>
    </location>
   </source>
-  <source name="Medium" filename="masters/aNumber-Medium.ufo" familyname="aNumber" stylename="Medium">
+  <source familyname="aNumber" name="Medium" filename="masters/aNumber-Medium.ufo" stylename="Medium">
    <lib copy="1"/>
    <groups copy="1"/>
    <info copy="1"/>
@@ -31,17 +31,17 @@
   </source>
  </sources>
  <instances>
-  <instance name="Light" filename="instances/aNumber-Light.ufo" familyname="aNumber" stylename="Light">
+  <instance familyname="aNumber" name="Light" filename="instances/aNumber-Light.ufo" stylename="Light">
    <location>
     <dimension name="weight" xvalue="300"/>
    </location>
   </instance>
-  <instance name="Medium" filename="instances/aNumber-Medium.ufo" familyname="aNumber" stylename="Medium">
+  <instance familyname="aNumber" name="Medium" filename="instances/aNumber-Medium.ufo" stylename="Medium">
    <location>
     <dimension name="weight" xvalue="500"/>
    </location>
   </instance>
-  <instance name="Bold" filename="instances/aNumber-Bold.ufo" familyname="aNumber" stylename="Bold">
+  <instance familyname="aNumber" name="Bold" filename="instances/aNumber-Bold.ufo" stylename="Bold">
    <location>
     <dimension name="weight" xvalue="700"/>
    </location>
