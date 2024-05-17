@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="4.0">
  <axes>
-  <axis name="weight" minimum="1" default="600" tag="wght" maximum="1000">
+  <axis maximum="1000" default="600" tag="wght" minimum="1" name="weight">
    <labelname xml:lang="en">Weight</labelname>
    <map output="300" input="1"/>
    <map output="400" input="400"/>
@@ -10,40 +10,40 @@
   </axis>
  </axes>
  <sources>
-  <source familyname="aNumber" name="Bold" filename="masters/aNumber-Bold.ufo" stylename="Bold">
+  <source stylename="Bold" familyname="aNumber" filename="masters/aNumber-Bold.ufo" name="Bold">
    <location>
-    <dimension name="weight" xvalue="700"/>
+    <dimension xvalue="700" name="weight"/>
    </location>
   </source>
-  <source familyname="aNumber" name="Light" filename="masters/aNumber-Light.ufo" stylename="Light">
+  <source stylename="Light" familyname="aNumber" filename="masters/aNumber-Light.ufo" name="Light">
    <location>
-    <dimension name="weight" xvalue="300"/>
+    <dimension xvalue="300" name="weight"/>
    </location>
   </source>
-  <source familyname="aNumber" name="Medium" filename="masters/aNumber-Medium.ufo" stylename="Medium">
+  <source stylename="Medium" familyname="aNumber" filename="masters/aNumber-Medium.ufo" name="Medium">
    <lib copy="1"/>
    <groups copy="1"/>
    <info copy="1"/>
    <features copy="1"/>
    <location>
-    <dimension name="weight" xvalue="500"/>
+    <dimension xvalue="500" name="weight"/>
    </location>
   </source>
  </sources>
  <instances>
-  <instance familyname="aNumber" name="Light" filename="instances/aNumber-Light.ufo" stylename="Light">
+  <instance stylename="Light" familyname="aNumber" filename="instances/aNumber-Light.ufo" name="Light">
    <location>
-    <dimension name="weight" xvalue="300"/>
+    <dimension xvalue="300" name="weight"/>
    </location>
   </instance>
-  <instance familyname="aNumber" name="Medium" filename="instances/aNumber-Medium.ufo" stylename="Medium">
+  <instance stylename="Medium" familyname="aNumber" filename="instances/aNumber-Medium.ufo" name="Medium">
    <location>
-    <dimension name="weight" xvalue="500"/>
+    <dimension xvalue="500" name="weight"/>
    </location>
   </instance>
-  <instance familyname="aNumber" name="Bold" filename="instances/aNumber-Bold.ufo" stylename="Bold">
+  <instance stylename="Bold" familyname="aNumber" filename="instances/aNumber-Bold.ufo" name="Bold">
    <location>
-    <dimension name="weight" xvalue="700"/>
+    <dimension xvalue="700" name="weight"/>
    </location>
   </instance>
  </instances>
