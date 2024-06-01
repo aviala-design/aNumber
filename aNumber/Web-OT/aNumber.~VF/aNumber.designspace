@@ -1,19 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="4.0">
  <axes>
-  <axis tag="wght" minimum="1" default="1000" name="weight" maximum="1000">
+  <axis tag="wght" minimum="1" default="600" name="weight" maximum="1000">
    <labelname xml:lang="en">Weight</labelname>
    <map input="1" output="300"/>
    <map input="400" output="400"/>
+   <map input="600" output="500"/>
    <map input="1000" output="700"/>
   </axis>
  </axes>
  <sources>
   <source familyname="aNumber" filename="masters/aNumber-Bold.ufo" name="Bold" stylename="Bold">
-   <lib copy="1"/>
-   <groups copy="1"/>
-   <info copy="1"/>
-   <features copy="1"/>
    <location>
     <dimension xvalue="700" name="weight"/>
    </location>
@@ -24,6 +21,10 @@
    </location>
   </source>
   <source familyname="aNumber" filename="masters/aNumber-Medium.ufo" name="Medium" stylename="Medium">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
    <location>
     <dimension xvalue="500" name="weight"/>
    </location>
